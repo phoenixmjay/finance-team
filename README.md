@@ -1,4 +1,4 @@
-# finance-team
+# Finance Project Example
 
 ## Schema Mapping & Data Standardization
 
