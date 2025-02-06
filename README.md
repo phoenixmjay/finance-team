@@ -4,6 +4,14 @@
 
 For a unified user-customer mapping, I worked with the backend engineers, data engineers and the finance team to standardize the identifiers and transformations.
 
+#### Raw Data Sources
+| Source                      | ID Type          | Example        |
+| :-------------------------- | :--------------: | :------------: |
+| Backend (Users Table)       |  user_id         | 12345          |
+| Stripe (Transactions Table) |  customer_id     | cus_abc123     |
+| Stripe (Invoices Table)     |  subscription_id | sub_xyz987     |
+| CRM (Salesforce)            |  email           | user@email.com |
+
 Challenge: Different IDs per system required consistent user-customer mapping.
 Solution: Created a crosswalk table to track relationships between: 
 - user_id 
