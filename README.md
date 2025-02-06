@@ -30,6 +30,6 @@ SQL code: [user_revenue.sql](https://github.com/phoenixmjay/finance-team/blob/ma
 ## Automating Data Quality & Monitoring
 To prevent data mismatches, I implemented automated checks in dbt and Airflow.
 
-SQL code: [user_revenue.sql](https://github.com/phoenixmjay/finance-team/blob/main/test_user_customer_mapping.sql)
+SQL code: [test_user_customer_mapping.sql](https://github.com/phoenixmjay/finance-team/blob/main/test_user_customer_mapping.sql)
 - I set up alerts if missing user-customer relationships are detected.
 - I also integrated with Slack notifications to trigger alerts if mismatches exceed 5% threshold.
