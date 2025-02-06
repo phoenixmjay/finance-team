@@ -1,4 +1,4 @@
-# Finance Project Example
+# Finance Project (Redacted)
 
 ## Schema Mapping & Data Standardization
 
