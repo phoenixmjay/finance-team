@@ -1,0 +1,6 @@
+finance_team:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/repl/dbt.duckdb
+  target: dev

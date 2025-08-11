@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: salesforce
+    tables:
+      - name: backend_users
+  - name: stripe
+    tables:
+      - name: stripe_subscriptions
